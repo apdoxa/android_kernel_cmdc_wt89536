@@ -1,0 +1,33 @@
+/*
+ * Copyright (c) 2017, The Linux Foundation. All rights reserved.
+ * Copyright (C) 2017 XiaoMi, Inc.
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2 and
+ * only version 2 as published by the Free Software Foundation.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ */
+
+qcom,Atl_4000mah {
+	qcom,max-voltage-uv = <4400000>;
+	qcom,nom-batt-capacity-mah = <4000>;
+	qcom,batt-id-kohm = <100>;
+	qcom,battery-beta = <3380>;
+	qcom,battery-type = "Atl_4000mah";
+	qcom,chg-rslow-comp-c1 = <2665462>;
+	qcom,chg-rslow-comp-c2 = <3087801>;
+	qcom,chg-rs-to-rslow = <971662>;
+	qcom,chg-rslow-comp-thr = <0x99>;
+	qcom,checksum = <0xad5e>;
+	qcom,gui-version = "PMI8950GUI - 2.0.0.16";
+	qcom,fg-profile-data = <0xdf83ba7c 0xd813b77 0x68830a75 0xd789c794 0xf82b49a 0xb7bd82ca
+				0x5511fc83 0x697d7b81 0xf0775483 0x3d6ab378 0x33865482 0x9e99f3bc
+				0xe2c9580d 0xa30fc158 0x1470eefc 0x6437f43c 0x3e250000 0xa4452731
+				0xfe220000 0x00 0x00 0x1870946a 0x5f701788 0x8c6f5c62 0xb263aa80
+				0xd6e6e60 0x1374a8a2 0x15946261 0x64a0710c 0x2800ff36 0xf0113003
+				0x0c>;
+};

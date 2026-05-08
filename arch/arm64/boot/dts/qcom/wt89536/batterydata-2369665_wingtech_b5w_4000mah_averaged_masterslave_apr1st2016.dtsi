@@ -1,0 +1,19 @@
+qcom,2369665_wingtech_b5w_4000mah_averaged_masterslave_apr1st2016 {
+	qcom,max-voltage-uv = <4400000>;
+	qcom,nom-batt-capacity-mah = <4000>;
+	qcom,batt-id-kohm = <100>;
+	qcom,battery-beta = <3435>;
+	qcom,battery-type = "qrd_msm8953_Coslight_4000mah";
+	qcom,chg-rslow-comp-c1 = <3798459>;
+	qcom,chg-rslow-comp-c2 = <5738213>;
+	qcom,chg-rs-to-rslow = <0xfb421>;
+	qcom,chg-rslow-comp-thr = <0xab>;
+	qcom,checksum = <0x3522>;
+	qcom,gui-version = "PMI8950GUI - 2.0.0.15";
+	qcom,fg-profile-data = <0xcb837577 0xd37b5574 0x5e834e6d 0x65887c8f 0x45829598 0x69b608c2
+				0x52149b83 0xda6fc379 0xe96d3883 0x2279e585 0x6a81a182 0x2d98c0b7
+				0xcec87013 0x4010d059 0x1470f8ff 0x1335a645 0xcf400000 0x8647f131
+				0x27400000 0x00 0x00 0x6270f469 0x235bfd88 0x6a7c1572 0x1e639e80
+				0x90751d6b 0x656fcca8 0x230d6056 0x5da0710c 0x2800ff36 0xf0113003
+				0x0c>;
+};
